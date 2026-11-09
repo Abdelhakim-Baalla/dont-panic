@@ -8,11 +8,16 @@ const nbTotalClones = parseInt(inputs[5]);
 const nbAdditionalElevators = parseInt(inputs[6]);
 const nbElevators = parseInt(inputs[7]);
 
+const targetPositions = {};
+
 for (let i = 0; i < nbElevators; i++) {
     var inputs = readline().split(' ');
     const elevatorFloor = parseInt(inputs[0]);
     const elevatorPos = parseInt(inputs[1]);
+    targetPositions[elevatorFloor] = elevatorPos;
 }
+
+targetPositions[exitFloor] = exitPos;
 
 while (true) {
     var inputs = readline().split(' ');
