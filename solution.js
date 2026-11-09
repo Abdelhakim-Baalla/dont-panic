@@ -25,5 +25,20 @@ while (true) {
     const clonePos = parseInt(inputs[1]);
     const direction = inputs[2];
 
-    console.log('WAIT');
+    if (cloneFloor === -1) {
+        console.log('WAIT');
+        continue;
+    }
+
+    const targetPos = targetPositions[cloneFloor];
+
+    if (clonePos < targetPos && direction === 'LEFT') {
+        console.log('BLOCK');
+    }
+    else if (clonePos > targetPos && direction === 'RIGHT') {
+        console.log('BLOCK');
+    }
+    else {
+        console.log('WAIT');
+    }
 }
