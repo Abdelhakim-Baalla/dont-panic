@@ -1,5 +1,7 @@
 # Don't Panic
 
+[Exécuter le solveur](https://baalla-codingame-lab.abdelhakimbaalla50.workers.dev/?projet=dont-panic)
+
 [Décision WAIT ou BLOCK](https://github.com/Abdelhakim-Baalla/dont-panic/blob/master/solution.js)
 
 [![Node.js](https://img.shields.io/badge/Node.js-%E2%89%A514-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
